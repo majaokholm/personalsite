@@ -1,8 +1,14 @@
 import React ,{ Component } from 'react';
 import ReactDOM from 'react-dom';
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from "react-router-dom";
 import Home from './components/Home.js';
 import { Jumbotron, Container, Row, Col} from 'reactstrap';
-import Jokes from './Jokes';
+import Jokes from './components/Jokes';
+import ImageBar from './components/ImageBar';
 
 class App extends Component {
     constructor() {
@@ -37,8 +43,11 @@ class App extends Component {
             )
         })
         return(
+          <HashRouter>
             <div>
-                <Home name={"World"}/>
+                <Home/>
+                
+                <ImageBar/>
                 <Jumbotron>
                 <h1 className="display-3">Joke Cards</h1>
                 <p className="lead">Welcome to the next billion dollar app taking the world by storm</p>
@@ -53,6 +62,7 @@ class App extends Component {
                     </Row>
                 </Container>           
             </div>
+          </HashRouter>
         );
     }
     toggle() {
