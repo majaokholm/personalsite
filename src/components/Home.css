@@ -1,3 +1,10 @@
-.appbar{
-    position: sticky;
+div{
+    text-align: center;
+    height: 300px;
+}
+p{
+    color: #f3ecec;
+}
+p.headding{
+    font-size: 30px;
 }

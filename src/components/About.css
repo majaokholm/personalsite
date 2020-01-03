@@ -1,0 +1,16 @@
+p{
+    color: #ffffff;
+    margin: 20px;
+}
+.gif{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 300px;
+}
+.gif:active{
+    visibility: hidden;
+}
+.gif:hover{
+    visibility: hidden;
+}

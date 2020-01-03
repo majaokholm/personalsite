@@ -1,29 +1,34 @@
 import React from 'react';
-import {
-  NavLink
-} from "react-router-dom";
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
+import './Home.css'
+
+const statements = ['popcorn-loving developer','samba-dancing lady','sillyness activist', 'stackoverflow lover', 'pro googler', 'musicalchair fanatic', 'mommy of one', 'speelingbee looser'];
 
 class Home extends React.Component {
-    render() {
-      return (
-        <div>
-            <AppBar className='appbar'>
-            <Toolbar>
-                <Typography variant="h6">
-                    Navigation should go here...
-                    <ul>
-                      <li><NavLink to="/joke">Joke</NavLink></li>
-                      <li><NavLink to="/contact">Contact</NavLink></li>
-                    </ul>
-                </Typography>
-            </Toolbar>
-            </AppBar>
-        </div>
-      );
-    }
+  constructor() {
+    super();
+    this.state = { textIdx: 0 };
   }
+
+  componentDidMount() {
+    this.timeout = setInterval(() => {
+      let currentIdx = this.state.textIdx;
+      this.setState({ textIdx: currentIdx + 1 });
+    }, 1500);
+  }
+
+  componentDidUnmount() {
+    clearInterval(this.timeout);
+  }
+
+  render() {
+    let textThatChanges = statements[this.state.textIdx % statements.length];
+    return (
+      <div>
+        <p className="headding">Maja Okholm</p>
+        <p>{textThatChanges}</p>
+      </div>
+    );
+  }
+}
 
 export default Home; 
