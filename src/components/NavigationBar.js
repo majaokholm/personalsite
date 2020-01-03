@@ -11,8 +11,9 @@ class NavigationBar extends React.Component {
         <div className="navigation" >
             <Breadcrumbs aria-label="breadcrumb"> 
                 <NavLink className="navLink" to="/home">Home</NavLink>
-                <NavLink className="navLink" to="/joke">Joke</NavLink>
+                <NavLink className="navLink" to="/sillyness">Sillyness</NavLink>
                 <NavLink className="navLink"  to="/about">About me</NavLink>
+                <NavLink className="navLink"  to="/resume">Stuff I pretend to know</NavLink>
             </Breadcrumbs>
         </div>
         );

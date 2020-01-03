@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css'
-
 import gif from './giphy.gif'
 
 class About extends React.Component {
