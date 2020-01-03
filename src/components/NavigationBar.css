@@ -1,0 +1,9 @@
+div.navigation{
+    position: relative;
+    left: 90%;
+    margin: 20px;
+}
+.navLink{
+    color: #0d0d0d;
+    font-size: large;
+}

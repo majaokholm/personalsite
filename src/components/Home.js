@@ -14,11 +14,10 @@ class Home extends React.Component {
             <Toolbar>
                 <Typography variant="h6">
                     Navigation should go here...
-{/*                     <ul>
-                      <li><NavLink to="/">Home</NavLink></li>
-                      <li><NavLink to="/imageBar">ImageBar</NavLink></li>
-                      <li><NavLink to="/jumbotron">Jumbotron</NavLink></li>
-                    </ul> */}
+                    <ul>
+                      <li><NavLink to="/joke">Joke</NavLink></li>
+                      <li><NavLink to="/contact">Contact</NavLink></li>
+                    </ul>
                 </Typography>
             </Toolbar>
             </AppBar>
