@@ -10,10 +10,10 @@ class NavigationBar extends React.Component {
       return (
         <div className="navigation" >
             <Breadcrumbs aria-label="breadcrumb"> 
-                <NavLink className="navLink" to="/home">Home</NavLink>
-                <NavLink className="navLink" to="/sillyness">Sillyness</NavLink>
-                <NavLink className="navLink"  to="/about">About me</NavLink>
-                <NavLink className="navLink"  to="/resume">Stuff I pretend to know</NavLink>
+              <NavLink  className="navLink" exact to="/">Home</NavLink >
+              <NavLink  className="navLink" to="/sillyness">Sillyness</NavLink >
+              <NavLink  className="navLink" to="/about">About me</NavLink >
+              <NavLink  className="navLink" to="/resume">Stuff I pretend to know</NavLink >            
             </Breadcrumbs>
         </div>
         );

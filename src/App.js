@@ -1,7 +1,8 @@
 import React ,{ Component } from 'react';
 import {
   Route,
-  HashRouter
+  Switch,
+  BrowserRouter 
 } from "react-router-dom";
 import './App.css'
 import NavigationBar from './components/NavigationBar.js';
@@ -14,13 +15,16 @@ class App extends Component {
     render() {
         return(
           <div className="content">
-            <HashRouter>              
+            <BrowserRouter >              
               <NavigationBar/>
-              <Route path="/home" component={Home}/>
-              <Route path="/sillyness" component={Sillyness}/>
-              <Route path="/about" component={About}/>  
-              <Route path="/resume" component={Resume}/>                                  
-            </HashRouter>
+              <Switch>              
+                <Route path="/sillyness" component={Sillyness}/>
+                <Route path="/about" component={About}/>  
+                <Route path="/resume" component={Resume}/>                                  
+                <Route path="/" component={Home}/>
+              </Switch>
+
+            </BrowserRouter >
           </div>
         );
     }
