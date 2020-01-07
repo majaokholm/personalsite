@@ -4,7 +4,7 @@ import './Sillyness.css'
 class Sillyness extends React.Component {
     render() {
       return (
-        <div>
+        <div div className="content">
             <p>fun stuff will come</p>
         </div>
       );

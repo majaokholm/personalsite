@@ -14,18 +14,17 @@ import Resume from './components/Resume.js';
 class App extends Component {    
     render() {
         return(
-          <div className="content">
             <BrowserRouter >              
               <NavigationBar/>
-              <Switch>              
-                <Route path="/sillyness" component={Sillyness}/>
-                <Route path="/about" component={About}/>  
-                <Route path="/resume" component={Resume}/>                                  
-                <Route path="/" component={Home}/>
-              </Switch>
-
-            </BrowserRouter >
-          </div>
+              <div>
+                <Switch>               
+                  <Route path="/sillyness" component={Sillyness}/>
+                  <Route path="/about" component={About}/>  
+                  <Route path="/resume" component={Resume}/>                                  
+                  <Route path="/" component={Home}/>
+                </Switch>
+              </div>
+            </BrowserRouter>
         );
     }
     toggle() {

@@ -23,9 +23,11 @@ class Home extends React.Component {
   render() {
     let textThatChanges = statements[this.state.textIdx % statements.length];
     return (
-      <div>
-        <p className="headding">Maja Okholm</p>
-        <p>{textThatChanges}</p>
+      <div className="content">
+        <div className="logo">
+          <p className="headding">Maja Okholm</p>
+          <p>{textThatChanges}</p>
+        </div>
       </div>
     );
   }

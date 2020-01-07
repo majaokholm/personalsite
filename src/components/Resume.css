@@ -1,0 +1,32 @@
+.MuiCard-root{
+    display: inline-block;
+    width: 80vw;
+    opacity:0.3;
+}
+.resumeText{    
+    color: rgb(13, 13, 14);
+    text-align: center;
+}
+.flexConatiner{
+    display:flex;
+    justify-content: center;
+
+}
+.rootContainer{
+    display:flex;
+}
+.contentSpecific{
+    position: absolute;
+    left: 50%;    
+    transform: translate( -50%);
+    margin-top: 100px;
+}
+.row{
+    display: flex;    
+}
+.firstCol{
+    color: rgb(231, 224, 224);
+}
+.secondCol{
+    color: rgb(231, 224, 224);
+}
