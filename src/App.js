@@ -10,10 +10,12 @@ import Sillyness from './components/Sillyness.js';
 import About from './components/About.js';
 import Home from './components/Home.js';
 import Resume from './components/Resume.js';
+import Footer from './components/Footer.js';
 
 class App extends Component {    
     render() {
         return(
+          <div>
             <BrowserRouter >              
               <NavigationBar/>
               <div>
@@ -25,6 +27,8 @@ class App extends Component {
                 </Switch>
               </div>
             </BrowserRouter>
+            <Footer/>
+          </div>
         );
     }
     toggle() {

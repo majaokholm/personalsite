@@ -1,20 +1,4 @@
-.MuiCard-root{
-    display: inline-block;
-    width: 80vw;
-    opacity:0.3;
-}
-.resumeText{    
-    color: rgb(13, 13, 14);
-    text-align: center;
-}
-.flexConatiner{
-    display:flex;
-    justify-content: center;
 
-}
-.rootContainer{
-    display:flex;
-}
 .contentSpecific{
     position: absolute;
     left: 50%;    
@@ -26,7 +10,15 @@
 }
 .firstCol{
     color: rgb(231, 224, 224);
+    margin: 0;
 }
 .secondCol{
     color: rgb(231, 224, 224);
+}
+.topBox{
+    margin-bottom: 3em;
+}
+.lineSeperator{
+    border: 2px solid  rgb(231, 224, 224);
+    border-radius: 5px;
 }

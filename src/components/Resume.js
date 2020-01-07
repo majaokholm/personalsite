@@ -13,6 +13,18 @@ class Resume extends React.Component {
         <div className="contentSpecific">
           <Grid>            
             <div className="row">
+              <Grid item xs={12}>
+                <div className="topBox">
+                  <h2 className="firstCol">Headline Overall</h2>
+                  <p className="firstCol">Lorem ipsum dolor sit amet, at tincidunt sadipscing temporibus pro, sed fierent intellegat an. Hinc ipsum congue ea mel. Cu nusquam sensibus efficiendi ius, ut cetero invenire pro, id viris propriae scriptorem usu.</p> 
+                </div>
+              </Grid>
+              <Grid item xs={12}>
+                <hr className="lineSeperator"/>
+                <div className="topBox">
+                  <h3 className="firstCol">Headline Section</h3>
+                </div>
+              </Grid>
               <Grid item xs={3}>
                 <h4 className="firstCol">Headline 1</h4>
                 <p className="firstCol">periode</p>
@@ -20,31 +32,62 @@ class Resume extends React.Component {
               <Grid item xs={9}>
                 <p className="secondCol">Lorem ipsum dolor sit amet, at tincidunt sadipscing temporibus pro, sed fierent intellegat an. Hinc ipsum congue ea mel. Cu nusquam sensibus efficiendi ius, ut cetero invenire pro, id viris propriae scriptorem usu.</p> 
               </Grid>
-            </div>
-            <div className="row">
               <Grid item xs={3}>
                 <h4 className="firstCol">Headline 2</h4>
+                <p className="firstCol">periode</p>
               </Grid>
               <Grid item xs={9}>
                 <p className="secondCol">Lorem ipsum dolor sit amet, at tincidunt sadipscing temporibus pro, sed fierent intellegat an. Hinc ipsum congue ea mel. Cu nusquam sensibus efficiendi ius, ut cetero invenire pro, id viris propriae scriptorem usu.</p> 
               </Grid>
-            </div>
-            <div className="row">
               <Grid item xs={3}>
                 <h4 className="firstCol">Headline 3</h4>
+                <p className="firstCol">periode</p>
               </Grid>
               <Grid item xs={9}>
                 <p className="secondCol">Lorem ipsum dolor sit amet, at tincidunt sadipscing temporibus pro, sed fierent intellegat an. Hinc ipsum congue ea mel. Cu nusquam sensibus efficiendi ius, ut cetero invenire pro, id viris propriae scriptorem usu.</p> 
               </Grid>
-            </div>
-            <div className="row">
               <Grid item xs={3}>
                 <h4 className="firstCol">Headline 4</h4>
+                <p className="firstCol">periode</p>
               </Grid>
               <Grid item xs={9}>
                 <p className="secondCol">Lorem ipsum dolor sit amet, at tincidunt sadipscing temporibus pro, sed fierent intellegat an. Hinc ipsum congue ea mel. Cu nusquam sensibus efficiendi ius, ut cetero invenire pro, id viris propriae scriptorem usu.</p> 
               </Grid>
-            </div>            
+              <Grid item xs={12}>
+                <hr className="lineSeperator"/>
+                <div className="topBox">
+                  <h3 className="firstCol">Headline Section</h3>
+                </div>
+              </Grid>
+              <Grid item xs={3}>
+                <h4 className="firstCol">Headline 1</h4>
+                <p className="firstCol">periode</p>
+              </Grid>
+              <Grid item xs={9}>
+                <p className="secondCol">Lorem ipsum dolor sit amet, at tincidunt sadipscing temporibus pro, sed fierent intellegat an. Hinc ipsum congue ea mel. Cu nusquam sensibus efficiendi ius, ut cetero invenire pro, id viris propriae scriptorem usu.</p> 
+              </Grid>
+              <Grid item xs={3}>
+                <h4 className="firstCol">Headline 2</h4>
+                <p className="firstCol">periode</p>
+              </Grid>
+              <Grid item xs={9}>
+                <p className="secondCol">Lorem ipsum dolor sit amet, at tincidunt sadipscing temporibus pro, sed fierent intellegat an. Hinc ipsum congue ea mel. Cu nusquam sensibus efficiendi ius, ut cetero invenire pro, id viris propriae scriptorem usu.</p> 
+              </Grid>
+              <Grid item xs={3}>
+                <h4 className="firstCol">Headline 3</h4>
+                <p className="firstCol">periode</p>
+              </Grid>
+              <Grid item xs={9}>
+                <p className="secondCol">Lorem ipsum dolor sit amet, at tincidunt sadipscing temporibus pro, sed fierent intellegat an. Hinc ipsum congue ea mel. Cu nusquam sensibus efficiendi ius, ut cetero invenire pro, id viris propriae scriptorem usu.</p> 
+              </Grid>
+              <Grid item xs={3}>
+                <h4 className="firstCol">Headline 4</h4>
+                <p className="firstCol">periode</p>
+              </Grid>
+              <Grid item xs={9}>
+                <p className="secondCol">Lorem ipsum dolor sit amet, at tincidunt sadipscing temporibus pro, sed fierent intellegat an. Hinc ipsum congue ea mel. Cu nusquam sensibus efficiendi ius, ut cetero invenire pro, id viris propriae scriptorem usu.</p> 
+              </Grid> 
+            </div>           
           </Grid>
 
 
