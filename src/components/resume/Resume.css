@@ -22,3 +22,14 @@
     border: 2px solid  rgb(231, 224, 224);
     border-radius: 5px;
 }
+.alignleft{
+    text-align: left;
+    margin: 0;
+}
+.alignright{
+    text-align: right;
+}
+.star{
+    height: 1.5em;
+    display: inline-block;
+}

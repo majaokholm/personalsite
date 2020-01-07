@@ -9,7 +9,7 @@ import NavigationBar from './components/NavigationBar.js';
 import Sillyness from './components/Sillyness.js';
 import About from './components/About.js';
 import Home from './components/Home.js';
-import Resume from './components/Resume.js';
+import Resume from './components/resume/Resume.js';
 import Footer from './components/Footer.js';
 
 class App extends Component {    
