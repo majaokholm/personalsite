@@ -2,11 +2,11 @@ import React ,{ Component } from 'react';
 import {
   Route,
   Switch,
-  BrowserRouter 
+  HashRouter 
 } from "react-router-dom";
 import './App.css'
 import NavigationBar from './components/NavigationBar.js';
-import Sillyness from './components/Sillyness.js';
+import Sillyness from './components/sillyness/Sillyness.js';
 import About from './components/About.js';
 import Home from './components/Home.js';
 import Resume from './components/resume/Resume.js';
@@ -16,7 +16,7 @@ class App extends Component {
     render() {
         return(
           <div>
-            <BrowserRouter >              
+            <HashRouter >              
               <NavigationBar/>
               <div>
                 <Switch>               
@@ -26,9 +26,9 @@ class App extends Component {
                   <Route path="/" component={Home}/>
                 </Switch>
               </div>
-            </BrowserRouter>
+            </HashRouter>
             <Footer/>
-          </div>
+            </div>            
         );
     }
     toggle() {

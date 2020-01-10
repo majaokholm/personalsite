@@ -1,0 +1,14 @@
+.paper{
+    background-color: blueviolet;
+    height: 20vh;
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+.innerpaper{
+    background-color: #dfd5d5;
+    height: 15vh;
+    width: 20vh;
+}
