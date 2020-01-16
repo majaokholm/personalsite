@@ -36,8 +36,7 @@
 .star{
   width: 20%;  
   height: auto;
-  max-width: 30px;
-  
+  max-width: 30px;  
 }
 .starRight{
     justify-content: flex-end;

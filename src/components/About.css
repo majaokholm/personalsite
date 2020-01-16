@@ -1,7 +1,12 @@
-p{
-    color: #dfd5d5;
-    margin: 20px;
+.horizontal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20vh;
 }
 .smily{
-    
+    max-width: 50%;
+    height: auto;
 }
