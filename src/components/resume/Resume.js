@@ -20,77 +20,77 @@ class Resume extends React.Component {
                 </div>
             </Grid>            
             
-            <Grid item xs={3}>
+            <Grid item xs={1}>
                 <p className="alignleft">test1</p>
             </Grid>
-            <Grid item xs={3}>
-                <li>
+            <Grid item xs={5} container justify='flex-end'>
+                <ul>
                     <img src={starsad} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
-                </li>
+                </ul>
             </Grid>
-            <Grid item xs={3}>
+            <Grid item xs={1}>
                 <p className="alignleft">test1</p>
             </Grid>
-            <Grid item xs={3}>
-                <li>
+            <Grid item xs={5} container justify='flex-end'>
+                <ul>
                     <img src={starsad} alt="fuckup" className="star"/>
                     <img src={starsad} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
-                </li>
+                </ul>
             </Grid>
-            <Grid item xs={3}>
+            <Grid item xs={1}>
                 <p className="alignleft">test1</p>
             </Grid>
-            <Grid item xs={3}>
-                <li>
+            <Grid item xs={5} container justify='flex-end'>
+                <ul>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
-                </li>
+                </ul>
             </Grid>
-            <Grid item xs={3}>
+            <Grid item xs={1}>
                 <p className="alignleft">test1</p>
             </Grid>
-            <Grid item xs={3}>
-                <li>
+            <Grid item xs={5} container justify='flex-end'>
+                <ul>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
-                </li>
+                </ul>
             </Grid>
-            <Grid item xs={3}>
+            <Grid item xs={1}>
                 <p className="alignleft">test1</p>
             </Grid>
-            <Grid item xs={3}>
-                <li>
+            <Grid item xs={5} container justify='flex-end'> 
+                <ul>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
-                </li>
+                </ul>
             </Grid>
-            <Grid item xs={3}>
+            <Grid item xs={1}>
                 <p className="alignleft">test1</p>
             </Grid>
-            <Grid item xs={3}>
-                <li>
+            <Grid item xs={5} container justify='flex-end'>
+                <ul>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
-                </li>
+                </ul>
             </Grid>
 
             <Grid item xs={12}>

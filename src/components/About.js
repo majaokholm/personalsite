@@ -1,13 +1,13 @@
 import React from 'react';
 import smily from './face.png'; 
 import './About.css';
-import gif from './giphy.gif';
+
 
 class About extends React.Component {
     render() {
       return (
-        <div>
-          <div className="imgBackground"> 
+        <div className="container">
+          <div className="img-fluid"> 
             <img className="smily" src={smily} alt="fuckup"/>
           </div>
           <div className="content">
@@ -16,7 +16,6 @@ class About extends React.Component {
               </p>
               
           </div>
-          <img className="gif" src={gif} alt=""/>
         </div>
       );
     }
