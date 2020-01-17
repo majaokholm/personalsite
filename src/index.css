@@ -9,13 +9,18 @@ body,
   background-size: cover;  
 }
 html{
-  font-size: 12px;
+  font-size: 11px;
   color: #dfd5d5;
 }
-
+li{
+  color: #dfd5d5;
+}
+p{
+  color: #dfd5d5;
+}
 @media screen and (min-width: 320px) {
   html {
-    font-size: calc(12px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(11px + 6 * ((100vw - 320px) / 680));    
   }
 }
 

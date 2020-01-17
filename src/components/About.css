@@ -1,12 +1,19 @@
 .horizontal{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     max-width: 100%;
     height: auto;
-    margin-top: 20vh;
+    margin-top: 18vh;
+    margin-left: 0;
 }
 .smily{
     max-width: 50%;
     height: auto;
+    margin-right: 0;
+}
+ul{
+    text-align: left;
+    margin: 0; 
+    padding: 0;
 }

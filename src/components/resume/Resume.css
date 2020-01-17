@@ -1,9 +1,13 @@
 
 .contentSpecific{
-    position: absolute;
+/*     position: absolute;
     left: 50%;    
-    transform: translate( -50%);
-    margin-top: 100px;
+    transform: translate( -50%); */
+    padding-top: 100px;
+    width:70vw;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
 }
 .row{
     display: flex;    
@@ -43,4 +47,7 @@
 }
 ul{
     margin-right: 10px;
+}
+p{
+    margin-left: 2vw;
 }
