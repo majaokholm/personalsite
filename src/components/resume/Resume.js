@@ -23,14 +23,16 @@ class Resume extends React.Component {
             <Grid item xs={1}>
                 <p className="alignleft">test1</p>
             </Grid>
-            <Grid item xs={5} container justify='flex-end'>
+            <Grid item xs={5} container justify='flex-end' >
+              <div className="horizontalUl">
                 <ul>
-                    <img src={starsad} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
+                  <img src={starsad} alt="fuckup" className="star"/>
+                  <img src={starsad} alt="fuckup" className="star"/>
+                  <img src={star} alt="fuckup" className="star"/>
+                  <img src={star} alt="fuckup" className="star"/>
+                  <img src={star} alt="fuckup" className="star"/>
                 </ul>
+              </div>
             </Grid>
             <Grid item xs={1}>
                 <p className="alignleft">test1</p>
