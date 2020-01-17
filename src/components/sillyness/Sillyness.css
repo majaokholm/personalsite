@@ -1,6 +1,6 @@
-.sillyContent{
-    height: 100vh;
-    margin: 8em;
+.container{
+    text-align: center;
+    margin-top: 18vh;
 }
 .gif{
     position: fixed;
@@ -13,4 +13,10 @@
 }
 .gif:hover{
     visibility: hidden;
+}
+.innerContainer{
+    display: inline-block;
+}
+.btn{
+    margin-top: 3vh;
 }
