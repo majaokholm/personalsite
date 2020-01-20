@@ -20,8 +20,8 @@ class Sillyness extends React.Component {
       <div className="container">            
         
         <div className="innerContainer">
-          <h1>Ready to laugh?</h1>   
-          <button type="button" className="btn btn-secondary" data-toggle="modal" data-target="#modal" onClick={this.getJoke}>Bring it on</button> 
+          <h1 className="AmaticSCFont">Ready to laugh?</h1>   
+          <button type="button" className="buttonStyle" data-toggle="modal" data-target="#modal" onClick={this.getJoke}>Bring it on</button> 
         </div>
         
         <div className="modal fade" id="modal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

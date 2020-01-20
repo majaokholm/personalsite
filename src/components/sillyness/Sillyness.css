@@ -2,6 +2,27 @@
     text-align: center;
     margin-top: 18vh;
 }
+.buttonStyle{
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    background-color: #dfd5d5;
+    border: none;
+    margin-top: 3vh;
+}
+@media screen and (min-width: 320px) {
+    .buttonStyle {
+      font-size: calc(18px + 6 * ((100vw - 320px) / 680));    
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .buttonStyle {
+      font-size: 18px;
+    }
+  }
+
 .gif{
     position: fixed;
     bottom: 0;
@@ -19,4 +40,10 @@
 }
 .btn{
     margin-top: 3vh;
+}
+.modal-title{
+    text-align: center;
+}
+.modal-body{
+    font-size: 16px;
 }

@@ -6,4 +6,6 @@ div.navigation{
 .navLink{
     color: #dfd5d5;;
     font-size: large;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
 }

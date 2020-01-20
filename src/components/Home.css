@@ -1,9 +1,25 @@
 .logo{
     text-align: center;
 }
-p{
-    color: #dfd5d5;
+.AmaticSCFont{
+    font-family: 'Amatic SC', cursive;     
+    font-size: 80px;
+    margin: 0;
 }
-p.headding{
-    font-size: 30px;
+@media screen and (min-width: 320px) {
+    .AmaticSCFont {
+      font-size: calc(45px + 6 * ((100vw - 320px) / 680));    
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .AmaticSCFont {
+      font-size: 80px;
+    }
+  }
+.OpenSansCondensedFontHome{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    margin: 0;
 }

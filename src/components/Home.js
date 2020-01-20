@@ -25,8 +25,8 @@ class Home extends React.Component {
     return (
       <div className="content">
         <div className="logo">
-          <p className="headding">Maja Okholm</p>
-          <p>{textThatChanges}</p>
+          <p className="AmaticSCFont">Maja Okholm</p>
+          <p className="OpenSansCondensedFontHome">{textThatChanges}</p>
         </div>
       </div>
     );
