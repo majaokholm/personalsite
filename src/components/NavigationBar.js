@@ -13,7 +13,7 @@ class NavigationBar extends React.Component {
               <NavLink  className="navLink" exact to="/">Home</NavLink >
               <NavLink  className="navLink" to="/sillyness">Sillyness</NavLink >
               <NavLink  className="navLink" to="/about">About me</NavLink >
-              <NavLink  className="navLink" to="/resume">Stuff I pretend to know</NavLink >            
+              <NavLink  className="navLink" to="/resume">Resume</NavLink >            
             </Breadcrumbs>
         </div>
         );

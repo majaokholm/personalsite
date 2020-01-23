@@ -5,6 +5,7 @@ hr{
     margin-left: 20vw;
     margin-right: 20vw;
     margin-top: 10vh;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .paragraphs{
     margin-left: 0;    
@@ -12,4 +13,7 @@ hr{
 }
 .accent{
     color: red;
+}
+.headline{
+    font-family: 'Amatic SC', cursive; 
 }
