@@ -5,16 +5,39 @@ import './Sillyness.css'
 class Sillyness extends React.Component {  
   constructor(props) {
     super(props);
-    this.state = {index: 0};    
+    this.state = {
+      error: null,
+      isLoaded: false,
+      joke: "sad default joke"
+    };
   }
-  getJoke = () => {          
-    if(this.state.index < this.props.humor.length-1){
-      this.setState({index: this.state.index + 1})
-    }
-    else{
-      this.setState({index: 0})
-    }        
+  getJoke = () => {
+    console.log("test")
+    fetch('https://icanhazdadjoke.com/', {
+      headers: {
+      'Content-Type': 'application/json',
+      }})
+      .then(res => res.json())
+      .then(
+        (result) => {
+          this.setState({
+            isLoaded: true,
+            joke: result.items
+          });
+        },
+        (error) => {
+          this.setState({
+            isLoaded: true,
+            error            
+          });
+          console.log(error)
+        }
+      )
   }
+  componentDidMount() {    
+    this.getJoke();
+  }
+
   render() {
     return (
       <div className="container">            
@@ -27,18 +50,13 @@ class Sillyness extends React.Component {
         <div className="modal fade" id="modal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
           <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalLongTitle">{this.props.humor[this.state.index].setup}</h5>
-                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
               <div className="modal-body">
-                {this.props.humor[this.state.index].punchline}
+                {this.state.joke}
               </div>
             </div>
           </div>
-        </div> 
+        </div>
+
         <img className="gif" src={gif} alt=""/>
       </div>
     );    
