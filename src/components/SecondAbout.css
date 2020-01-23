@@ -1,0 +1,15 @@
+hr{
+    background-color: #dfd5d5;
+}
+.aboutContent{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 10vh;
+}
+.paragraphs{
+    margin-left: 0;    
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.accent{
+    color: red;
+}

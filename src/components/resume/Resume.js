@@ -20,24 +20,36 @@ class Resume extends React.Component {
                 </div>
             </Grid>            
             
-            <Grid item xs={1}>
-                <p className="alignleft">test1</p>
+            <Grid item xs={2}>
+                <p className="alignleft">C#/.NET</p>
             </Grid>
-            <Grid item xs={5} container justify='flex-end' >
+            <Grid item xs={4} container justify='flex-end' >
               <div className="horizontalUl">
                 <ul>
                   <img src={starsad} alt="fuckup" className="star"/>
-                  <img src={starsad} alt="fuckup" className="star"/>
+                  <img src={star} alt="fuckup" className="star"/>
                   <img src={star} alt="fuckup" className="star"/>
                   <img src={star} alt="fuckup" className="star"/>
                   <img src={star} alt="fuckup" className="star"/>
                 </ul>
               </div>
             </Grid>
-            <Grid item xs={1}>
-                <p className="alignleft">test1</p>
+            <Grid item xs={2}>
+                <p className="alignleft">Java</p>
             </Grid>
-            <Grid item xs={5} container justify='flex-end'>
+            <Grid item xs={4} container justify='flex-end'>
+                <ul>
+                    <img src={starsad} alt="fuckup" className="star"/>
+                    <img src={star} alt="fuckup" className="star"/>
+                    <img src={star} alt="fuckup" className="star"/>
+                    <img src={star} alt="fuckup" className="star"/>
+                    <img src={star} alt="fuckup" className="star"/>
+                </ul>
+            </Grid>
+            <Grid item xs={2}>
+                <p className="alignleft">JavaScript</p>
+            </Grid>
+            <Grid item xs={4} container justify='flex-end'>
                 <ul>
                     <img src={starsad} alt="fuckup" className="star"/>
                     <img src={starsad} alt="fuckup" className="star"/>
@@ -46,59 +58,23 @@ class Resume extends React.Component {
                     <img src={star} alt="fuckup" className="star"/>
                 </ul>
             </Grid>
-            <Grid item xs={1}>
-                <p className="alignleft">test1</p>
-            </Grid>
-            <Grid item xs={5} container justify='flex-end'>
+            <Grid item xs={2}>
+                <p className="alignleft">Android</p>
+            </Grid>  
+            <Grid item xs={4} container justify='flex-end'>
                 <ul>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
+                    <img src={starsad} alt="fuckup" className="star"/>
+                    <img src={starsad} alt="fuckup" className="star"/>
+                    <img src={starsad} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                     <img src={star} alt="fuckup" className="star"/>
                 </ul>
-            </Grid>
-            <Grid item xs={1}>
-                <p className="alignleft">test1</p>
-            </Grid>
-            <Grid item xs={5} container justify='flex-end'>
-                <ul>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                </ul>
-            </Grid>
-            <Grid item xs={1}>
-                <p className="alignleft">test1</p>
-            </Grid>
-            <Grid item xs={5} container justify='flex-end'> 
-                <ul>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                </ul>
-            </Grid>
-            <Grid item xs={1}>
-                <p className="alignleft">test1</p>
-            </Grid>
-            <Grid item xs={5} container justify='flex-end'>
-                <ul>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                    <img src={star} alt="fuckup" className="star"/>
-                </ul>
-            </Grid>
+            </Grid>          
 
             <Grid item xs={12}>
               <hr className="lineSeperator"/>
               <div className="topBox">
-                <h3 className="firstCol">Headline Section</h3>
+                <h3 className="firstCol">Expirence</h3>
               </div>
             </Grid>
             <Grid item xs={3}>
@@ -132,7 +108,7 @@ class Resume extends React.Component {
             <Grid item xs={12}>
               <hr className="lineSeperator"/>
               <div className="topBox">
-                <h3 className="firstCol">Headline Section</h3>
+                <h3 className="firstCol">Education</h3>
               </div>
             </Grid>
             <Grid item xs={3}>

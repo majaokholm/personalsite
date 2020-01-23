@@ -5,6 +5,7 @@
     max-width: 800px;
     height: auto;
     margin: 0 auto;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .row{
     display: flex;    
