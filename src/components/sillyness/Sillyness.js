@@ -10,20 +10,17 @@ class Sillyness extends React.Component {
       isLoaded: false,
       joke: {
         "id": "R7UfaahVfFd",
-        "joke": "DEFAULT JOKE: My dog used to chase people on a bike a lot. It got so bad I had to take his bike away.",
+        "joke": "My dog used to chase people on a bike a lot. It got so bad I had to take his bike away.",
         "status": 200
       }
     };
   }
   getJoke = () => {
     console.log("test")
-    fetch("https://dad-jokes.p.rapidapi.com/random/jokes", {
-        "method": "GET",
-        "headers": {
-          "x-rapidapi-host": "dad-jokes.p.rapidapi.com",
-          "x-rapidapi-key": "3fe75ab142msh7af1fc7f5265823p15aa1cjsn19639177ddcf"
-        }
-      })
+    fetch('https://icanhazdadjoke.com/', {
+      headers: {
+      'Content-Type': 'application/json',
+      }})
       .then(res => res.json())
       .then(
         (result) => {
@@ -58,7 +55,7 @@ class Sillyness extends React.Component {
           <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content">
               <div className="modal-body">
-                this.state.joke.joke
+                {this.state.joke.joke}
               </div>
             </div>
           </div>
