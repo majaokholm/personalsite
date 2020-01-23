@@ -17,10 +17,13 @@ class Sillyness extends React.Component {
   }
   getJoke = () => {
     console.log("test")
-    fetch('https://icanhazdadjoke.com/', {    
-      headers: {
-      'Content-Type': 'application/json',
-      }})
+    fetch("https://dad-jokes.p.rapidapi.com/random/jokes", {
+        "method": "GET",
+        "headers": {
+          "x-rapidapi-host": "dad-jokes.p.rapidapi.com",
+          "x-rapidapi-key": "3fe75ab142msh7af1fc7f5265823p15aa1cjsn19639177ddcf"
+        }
+      })
       .then(res => res.json())
       .then(
         (result) => {
@@ -55,7 +58,7 @@ class Sillyness extends React.Component {
           <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content">
               <div className="modal-body">
-                {this.state.joke.joke}
+                this.state.joke.joke
               </div>
             </div>
           </div>
