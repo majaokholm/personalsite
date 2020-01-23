@@ -8,12 +8,16 @@ class Sillyness extends React.Component {
     this.state = {
       error: null,
       isLoaded: false,
-      joke: "sad default joke"
+      joke: {
+        "id": "R7UfaahVfFd",
+        "joke": "DEFAULT JOKE: My dog used to chase people on a bike a lot. It got so bad I had to take his bike away.",
+        "status": 200
+      }
     };
   }
   getJoke = () => {
     console.log("test")
-    fetch('https://icanhazdadjoke.com/', {
+    fetch('https://icanhazdadjoke.com/', {    
       headers: {
       'Content-Type': 'application/json',
       }})
@@ -51,7 +55,7 @@ class Sillyness extends React.Component {
           <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content">
               <div className="modal-body">
-                {this.state.joke}
+                {this.state.joke.joke}
               </div>
             </div>
           </div>
