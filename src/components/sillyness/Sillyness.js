@@ -15,13 +15,12 @@ class Sillyness extends React.Component {
       }
     };
   }
-  getJoke = () => {
-    console.log("test")
+  getJoke = () => {    
     fetch('https://icanhazdadjoke.com/', {
       headers: {
-      'Content-Type': 'application/json',
+      'Content-type': 'application/json'
       }})
-      .then(res => res.json())
+      .then(res => res.json())      
       .then(
         (result) => {
           this.setState({
