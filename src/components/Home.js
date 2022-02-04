@@ -1,7 +1,15 @@
 import React from 'react';
-import './Home.css'
+import './Home.css';
 
-const statements = ['popcorn-loving developer','samba-dancing lady','sillyness activist', 'stackoverflow lover', 'pro googler', 'musicalchair fanatic', 'mommy of one', 'speelingbee looser'];
+const statements = [
+  'popcorn lover',
+  'samba dancer',
+  'sillyness activist',
+  'stackoverflow enthusiast',
+  'pro googler',
+  'musicalchair fanatic',
+  'speelingbee looser'
+];
 
 class Home extends React.Component {
   constructor() {
@@ -33,4 +41,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home; 
+export default Home;
